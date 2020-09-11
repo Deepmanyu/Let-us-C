@@ -6,7 +6,7 @@ void move_pixel(RGBTRIPLE *pixel1, RGBTRIPLE *pixel2);
 RGBTRIPLE blur_pixel(int i, int j, int height, int width, RGBTRIPLE image[height][width]);
 
 
-// Convert image to grayscale
+// Convert image to grayscale* 
 void grayscale(int height, int width, RGBTRIPLE image[height][width])
 {
     for (int i = 0; i < height; i++)
