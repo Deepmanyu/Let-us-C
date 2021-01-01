@@ -39,7 +39,7 @@ int prime (int x)
                 power(x, i);
             }
             else
-                continue;
+                continue; 
         }
     }
     return 0;
