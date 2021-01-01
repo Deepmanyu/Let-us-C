@@ -12,7 +12,7 @@ int main()
     printf("Number :");
     scanf(" %d", &a);
 
-    printf("Prime fators of %d are: ", a);
+    printf("Prime fators of %d are: ", a); 
     prime(a);
     // just to write the number itself if its a prime number
     if (a==is_prime_num(a))
