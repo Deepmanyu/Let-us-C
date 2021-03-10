@@ -11,7 +11,7 @@ int main()
     scanf("%d", &n);
     int scores[n];
     
-    for(int i = 0; i<n; i++)
+    for(int i = 0; i<n; i++) 
     {
         printf("Score%d : ", i + 1 );
         scanf("%d", &scores[i]);
