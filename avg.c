@@ -24,7 +24,7 @@ float avg1(int n , int avg_array[])
     int sum = 0;
     for(int i = 0; i < n; i++)
     {
-        sum += avg_array[i]; 
+        sum += avg_array[i];
     }
     return (float) sum/n;
     
