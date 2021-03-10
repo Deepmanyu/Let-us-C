@@ -1,6 +1,6 @@
 // calculating avg using function, array
 
-#include <stdio.h>
+#include <stdio.h> 
 
 float avg1(int n , int avg_array[]);
 
