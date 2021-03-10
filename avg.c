@@ -14,7 +14,7 @@ int main()
     for(int i = 0; i<n; i++) 
     {
         printf("Score%d : ", i + 1 );
-        scanf("%d", &scores[i]); 
+        scanf("%d", &scores[i]);
     } 
     printf("The average is : %.1f\n", avg1(n , scores));
 }
