@@ -9,7 +9,7 @@
 typedef struct
 {
     string name; 
-    int votes;
+    int votes; 
 }
 candidate;
 
