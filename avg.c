@@ -16,7 +16,7 @@ int main()
         printf("Score%d : ", i + 1 );
         scanf("%d", &scores[i]);
     } 
-    printf("The average is : %.1f\n", avg1(n , scores));
+    printf("The average is : %.1f\n", avg1(n , scores)); 
 }
 
 float avg1(int n , int avg_array[])
