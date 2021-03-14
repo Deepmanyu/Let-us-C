@@ -8,7 +8,7 @@
 // Candidates have name and vote count
 typedef struct
 {
-    string name;
+    string name; 
     int votes;
 }
 candidate;
