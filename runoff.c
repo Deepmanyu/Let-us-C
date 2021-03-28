@@ -19,7 +19,7 @@ typedef struct
 candidate; 
 
 // Array of candidates
-candidate candidates[MAX_CANDIDATES];
+candidate candidates[MAX_CANDIDATES]; 
 
 // Numbers of voters and candidates
 int voter_count;
